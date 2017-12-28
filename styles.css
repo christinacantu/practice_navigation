@@ -9,3 +9,67 @@ nav {
 nav li {
   display: inline-block;
 }
+
+.facebook-logo {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("images/facebook-logo.png") 50% 50% no-repeat;
+  background-size: 100% 100%;
+}
+
+.search-icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url("images/magnifying-glass.png") 50% 50% no-repeat;
+  background-size: 100% 100%;
+}
+
+.account-switcher {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("images/people-black.png") 50% 50% no-repeat;
+  background-size: 100% 100%;
+}
+
+.add-friends {
+  display: inline-block;
+  width: 12px;
+  height: 7px;
+  background: url("images/friends-gray.png") 50% 50% no-repeat;
+  background-size: 100% 100%;
+}
+
+.messages {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("images/messenger-black.png") 50% 50% no-repeat;
+  background-size: 100% 100%;
+}
+
+.notifications {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url("images/world-black.png") 50% 50% no-repeat;
+  background-size: 100% 100%;
+}
+
+.quick-help {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url("images/question-black.png") 50% 50% no-repeat;
+  background-size: 100% 100%;
+}
+
+.quick-settings {
+  display: inline-block;
+  width: 18px;
+  height: 11px;
+  background: url("images/arrow-black.png") 50% 50% no-repeat;
+  background-size: 100% 100%;
+}
