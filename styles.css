@@ -4,8 +4,8 @@ body {
 
 nav {
   background-color: #4267B2;
+}
 
-  li {
-    display: block;
-  }
+nav li {
+  display: inline-block;
 }
