@@ -6,24 +6,28 @@ nav {
   display: flex;
   justify-content: space-around;
   background-color: #4267B2;
+}
 
+a {
+  text-decoration: none;
 }
 
 nav li {
   display: inline-block;
 }
 
-nav a {
-  text-decoration: none;
+.icon {
+  display: inline-block;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .facebook-logo {
-  display: inline-block;
   float: left;
   width: 24px;
   height: 24px;
-  background: url("images/facebook-logo.png") 50% 50% no-repeat;
-  background-size: 100% 100%;
+  background-image: url("images/facebook-logo.png");
 }
 
 .search-bar {
@@ -31,12 +35,10 @@ nav a {
 }
 
 .search-icon {
-  display: inline-block;
   float: right;
   width: 28px;
   height: 28px;
-  background: #F6F7F9 url("images/magnifying-glass.png") 50% 50% no-repeat;
-  background-size: 100% 100%;
+  background: #F6F7F9 url("images/magnifying-glass.png");
 }
 
 .search-icon:hover {
@@ -49,49 +51,37 @@ nav a {
 }
 
 .account-switcher {
-  display: inline-block;
   width: 20px;
-  height: 20px;
-  background: url("images/people-black.png") 50% 50% no-repeat;
-  background-size: 100% 100%;
+  height: 18px;
+  background-image: url("images/people-black.png");
 }
 
 .add-friends {
-  display: inline-block;
   width: 12px;
   height: 7px;
-  background: url("images/friends-gray.png") 50% 50% no-repeat;
-  background-size: 100% 100%;
+  background-image: url("images/friends-gray.png");
 }
 
 .messages {
-  display: inline-block;
   width: 20px;
   height: 20px;
-  background: url("images/messenger-black.png") 50% 50% no-repeat;
-  background-size: 100% 100%;
+  background-image: url("images/messenger-black.png");
 }
 
 .notifications {
-  display: inline-block;
   width: 14px;
   height: 14px;
-  background: url("images/world-black.png") 50% 50% no-repeat;
-  background-size: 100% 100%;
+  background-image: url("images/world-black.png");
 }
 
 .quick-help {
-  display: inline-block;
   width: 14px;
   height: 14px;
-  background: url("images/question-black.png") 50% 50% no-repeat;
-  background-size: 100% 100%;
+  background-image: url("images/question-black.png");
 }
 
 .quick-settings {
-  display: inline-block;
   width: 18px;
   height: 11px;
-  background: url("images/arrow-black.png") 50% 50% no-repeat;
-  background-size: 100% 100%;
+  background-image: url("images/arrow-black.png");
 }
